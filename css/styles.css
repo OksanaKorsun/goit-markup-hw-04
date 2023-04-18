@@ -16,7 +16,7 @@
   --ocean-bg-cl: #404bbf;
   --light-bg-cl: #f4f4fd;
   --cloud-bg-cl: #f4f4fd;
-  --success-bg-cl: #31D0AA;
+  --success-bg-cl: #31d0aa;
   /* Others */
   --indent: 24px;
   --items: 4;
@@ -180,8 +180,13 @@ button {
 .hero {
   max-width: 1440px;
   background-color: var(--dark-bg-cl);
-  background-image: url(../images/Hero/Dark-bg.png);
-  background-image: url(../images/Hero/people-office.jpg);
+  /* background-image: url(../images/Hero/Dark-bg.png); */
+  /* background-image: url(../images/Hero/people-office.jpg); */
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Hero/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -248,7 +253,8 @@ button {
   border-radius: 4px;
 }
 
-.features-icon {}
+.features-icon {
+}
 
 .features-subtitle {
   font-size: 20px;
@@ -356,9 +362,11 @@ button {
 
 /* Customers*/
 
-.clients {}
+.clients {
+}
 
-.clients-title {}
+.clients-title {
+}
 
 .clients-list {
   display: flex;
@@ -366,7 +374,8 @@ button {
   gap: 24px;
 }
 
-.clients-item {}
+.clients-item {
+}
 
 .clients-link {
   display: flex;
@@ -374,7 +383,7 @@ button {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 .clients-link:hover,
@@ -383,7 +392,7 @@ button {
 }
 
 .clients-icon {
-color: currentColor;
+  color: currentColor;
 }
 
 /* Filter section*/
@@ -473,7 +482,6 @@ color: currentColor;
   gap: 120px;
 }
 .footer-left-side {
-  
 }
 .web-link {
   display: inline-block;
