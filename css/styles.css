@@ -250,6 +250,7 @@ button {
   height: 112px;
   background: var(--light-bg-cl);
   border-radius: 4px;
+  margin-bottom: var(--backing);
 }
 
 .features-item {
