@@ -307,9 +307,8 @@ button {
 .team {
   background-color: var(--light-bg-cl);
 }
-.team-container {
-  padding: 32px 0; 
-}
+.team-container {}
+  
 
 .team-title {
 }
@@ -319,8 +318,8 @@ button {
 
 .team-item {
   background-color: var(--main-bg-cl);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
@@ -370,8 +369,9 @@ button {
   background-color: var(--ocean-bg-cl);
 }
 
-.socials-icon {
-  fill: var(--light-bg-cl);
+.socials-icon { 
+  display: block;
+  /* fill: var(--light-bg-cl); */
 }
 
 /* Customers*/
@@ -463,7 +463,6 @@ button {
   row-gap: 48px;
 }
 .filter-item-img {
- 
 }
 .filter-link {
   display: block;
@@ -545,4 +544,7 @@ button {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--success-bg-cl);
+}
+.footer-socials-icon {
+  fill: var(--cloud-tx-cl);
 }
