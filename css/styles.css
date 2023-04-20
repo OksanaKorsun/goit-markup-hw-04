@@ -370,8 +370,7 @@ button {
 }
 
 .socials-icon { 
-  display: block;
-  /* fill: var(--light-bg-cl); */
+  fill: var(--cloud-tx-cl);
 }
 
 /* Customers*/
