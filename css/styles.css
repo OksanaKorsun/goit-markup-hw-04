@@ -9,7 +9,7 @@
   --accent-tx-cl: #404bbf;
   --white-tx-cl: #ffffff;
   --cloud-tx-cl: #f4f4fd;
-  --ligft-slate: #8e8f99;
+  --light-slate: #8e8f99;
   /* Bg colors */
   --dark-bg-cl: #2e2f42;
   --main-bg-cl: #ffffff;
@@ -399,7 +399,7 @@ button {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  fill: var(--ligft-slate);
+  color: var(--light-slate);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -410,8 +410,6 @@ button {
 .clients-icon:focus {
   currentColor
   }
-
-
 
 /* Filter section*/
 
