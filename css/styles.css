@@ -406,10 +406,9 @@ button {
   color: var(--ocean-bg-cl);
   border-color: var(--ocean-bg-cl);
 } 
-.clients-icon:hover,
-.clients-icon:focus {
-  currentColor
-  }
+.clients-icon {
+  fill: currentColor;
+}
 
 /* Filter section*/
 
@@ -462,6 +461,7 @@ button {
   row-gap: 48px;
 }
 .filter-item-img {
+  
 }
 .filter-link {
   display: block;
@@ -500,9 +500,8 @@ button {
   align-items: baseline;
   gap: 120px;
 }
-.footer-left-side {
-  margin-right: 120px;
-}
+.footer-left-side {}
+  
 .web-link {
   display: inline-block;
   margin-bottom: 16px;
