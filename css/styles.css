@@ -407,7 +407,7 @@ button {
   border-color: var(--ocean-bg-cl);
 } 
 .clients-icon {
-  fill: currentColor;
+  fill: currentColor
 }
 
 /* Filter section*/
@@ -498,10 +498,10 @@ button {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
-.footer-left-side {}
-  
+.footer-left-side {
+  margin-right: 120px;
+}
 .web-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -509,7 +509,6 @@ button {
 .footer-logo {
   color: var(--cloud-tx-cl);
 }
-
 .footer-text {
   color: var(--cloud-tx-cl);
   width: 264px;
@@ -527,7 +526,6 @@ button {
 .footer-socials-list {
   gap: 16px;
 }
-
 .footer-socials-link {
   display: flex;
   justify-content: center;
