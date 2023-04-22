@@ -284,6 +284,7 @@ button {
 /* Our works */
 
 .works {
+  padding-top: 0;
 }
 
 .works-title {
