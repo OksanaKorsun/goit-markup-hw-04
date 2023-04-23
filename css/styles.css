@@ -408,7 +408,7 @@ button {
   border-color: var(--ocean-bg-cl);
 } 
 .clients-icon {
-  fill: currentColor
+  fill: currentColor;
 }
 
 /* Filter section*/
